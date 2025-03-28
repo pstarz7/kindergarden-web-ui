@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers 0-10</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #pg1-content {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1vw;
+            flex-wrap: wrap;
+            padding: 3vw;
+        }
+
+        .Number {
+            margin: 5px;
+            padding: 10px;
+            border-radius: 1vw;
+            width: 200px;
+            height: 200px;
+            background-color: #705d9f;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .Number h2 {
+            font-size: 3vw;
+            color: #fff;
+        }
+
+        .glow {
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ffe1e1, 0 0 20px #fff1f1, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+            }
+            to {
+                text-shadow: 0 0 20px #fff7f7, 0 0 30px #ffceff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff;
+            }
+        }
+
+        #pg1-start-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 130px;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="pg1-start-btn">Start</button>
+    <div id="pg1-content">
+        <div class="Number"><h2>0</h2></div>
+        <div class="Number"><h2>1</h2></div>
+        <div class="Number"><h2>2</h2></div>
+        <div class="Number"><h2>3</h2></div>
+        <div class="Number"><h2>4</h2></div>
+        <div class="Number"><h2>5</h2></div>
+        <div class="Number"><h2>6</h2></div>
+        <div class="Number"><h2>7</h2></div>
+        <div class="Number"><h2>8</h2></div>
+        <div class="Number"><h2>9</h2></div>
+        <div class="Number"><h2>10</h2></div>
+    </div>
+
+    <script>
+        document.getElementById("pg1-start-btn").addEventListener("click", function() {
+            let numberDivs = document.querySelectorAll("#pg1-content > div");
+            let delay = 0;
+
+            numberDivs.forEach((div) => {
+                setTimeout(() => {
+                    div.classList.add("glow");
+
+                    setTimeout(() => {
+                        div.classList.remove("glow");
+                    }, 2000);
+                }, delay);
+
+                delay += 1000;
+            });
+        });
+    </script>
+</body>
+</html>

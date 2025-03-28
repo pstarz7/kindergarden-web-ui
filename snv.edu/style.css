@@ -1,0 +1,1134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    text-decoration: none;
+
+}
+
+.neucha-regular {
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* background: #000; */
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #4cb0b2;
+}
+
+
+
+#page1 nav {
+    width: 100%;
+    height: 7vh;
+    /* background-color: red; */
+    display: flex;
+    color: aliceblue;
+}
+
+nav #nav-left {
+    width: 20%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-left h1 {
+    font-size: 2vw;
+
+}
+
+nav #nav-right {
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(19, 136, 238); */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav-right a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-right: 2vw;
+
+
+}
+
+
+#page1 #pg1-center {
+    width: 100%;
+    height: 91vh;
+    /* background-color: red;     */
+    display: flex;
+}
+
+#pg1-center #pg1-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+#pg1-left h1 {
+    font-size: 3vw;
+    width: 30vw;
+    line-height: 3.5vw;
+    color: #FFFFFF;
+
+}
+
+#pg1-left p {
+    font-size: 0.7vw;
+    width: 30vw;
+    /* line-height: 3.5vw; */
+    color: #FFFFFF;
+    margin-top: 1vw;
+
+}
+
+#pg1-left #top-btn {
+    font-size: 1vw;
+    width: 30vw;
+    height: 5vh;
+    /* border: 1px solid blanchedalmond; */
+    line-height: 3.5vw;
+    color: #FFFFFF;
+    margin-top: 1vw;
+
+}
+
+#pg1-left #btn {
+    font-size: 0.9vw;
+    width: 10vw;
+    height: 100%;
+    background-color: #16023f;
+    border-radius: 5vw;
+    line-height: 3.5vw;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#pg1-center #pg1-right {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(13, 119, 52); */
+    background-image: url(img/kindpng_1401714.png);
+    background-size: cover;
+
+}
+
+
+
+.custom-shape-divider-bottom-1722484102 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722484102 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1722484102 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+#page2 {
+    width: 100%;
+    height: 150vh;
+    background: #ffffff;
+}
+
+
+#page2 #pg2-top {
+    width: 100%;
+    height: 40%;
+    /* background: #932222; */
+    display: flex;
+    padding: 4vw;
+}
+
+
+
+#pg2-top #pg2-top-lft {
+    width: 50%;
+    height: 100%;
+    /* border: #f2ebff solid 1px; */
+}
+
+#pg2-top-lft h1 {
+    font-size: 3vw;
+    width: 35vw;
+}
+
+
+
+#pg2-top #pg2-top-rgt {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#pg2-top-rgt #pg2-top-top {
+    width: 100%;
+    height: 40%;
+    /* background-color: #630909; */
+}
+
+#pg2-top-top p {
+    color: #16023f;
+    font-size: 1vw;
+    width: 80%;
+    padding: 2vw;
+    line-height: 2vw;
+}
+
+#pg2-top-rgt #pg2-top-btm {
+    width: 100%;
+    height: 60%;
+    /* background-color: #fa1111; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#pg2-top-btm #pg2-top-btm-lft {
+    width: 50%;
+    height: 100%;
+    /* background-color: #10df5f; */
+}
+
+#pg2-top-btm #pg2-top-btm-rgt {
+    width: 50%;
+    height: 100%;
+    /* background-color: #10cadf; */
+}
+
+
+#page2 #pg2-btm {
+    width: 100%;
+    height: 60%;
+    background: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ri-check-line{
+    font-size: 1vw;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background-color: #ee6a5f;
+    padding: 5px;
+    width: 2vw;
+    height: 2vw;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 1vw;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: #f32020; */
+}
+
+
+
+
+
+
+
+#pg2-btm #pg2-btm-vid {
+    width: 80vw;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url(https://www.theparentz.com/tpz-media/2023/03/Should-You-Play-with-Your-Kids-All-The-Time.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#page3{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3ab61;
+}
+
+#page3 #pg3-cards{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px ;
+    align-items: center;
+    /* border:1px solid #fff; */
+}
+
+
+#pg3-cards .pg3-card{
+    width: 400px;
+    height: 380px;
+    border-radius: 1vw;
+    /* border:1px solid #fff; */
+    background-color: #fff;
+    padding: 1VW;
+
+}
+
+.pg3-card .pg3-card-img{
+    width: 100%;
+    height: 70%;
+    /* border-radius: 1vw; */
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg3-card-img img{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1vw;
+
+}
+
+
+.pg3-card-title{
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+    object-position: center;
+    color: #16023f;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+
+}
+
+.pg3-card p{
+font-size: 0.8vw;
+}
+
+.pg3-card .ri-play-circle-fill{
+    font-size: 1vw;
+    color: #f3ab61;
+    }
+    
+#page4{
+    width: 100%;
+    height:90vh;
+    background-color:#ffffff ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4-video{
+    width: 60vw;
+    height: 80%;
+    /* background-color: #44b3e0; */
+}
+
+#page4-video video{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+#page5{
+    width: 100%;
+    height: 5vh;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 768px) {
+
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #4cb0b2;
+    }
+    
+    
+    
+    #page1 nav {
+        width: 100%;
+        height: 7vh;
+        /* background-color: red; */
+        display: flex;
+        color: aliceblue;
+    }
+    
+    nav #nav-left {
+        width: 20%;
+        height: 100%;
+        /* background-color: aliceblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nav-left h1 {
+        font-size: 4vw;
+    
+    }
+    
+    nav #nav-right {
+        width: 80%;
+        height: 100%;
+        /* background-color: rgb(19, 136, 238); */
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #nav-right a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 2vw;
+        font-weight: 500;
+        padding-right: 2vw;
+    
+    
+    }
+    
+    
+    #page1 #pg1-center {
+        width: 100%;
+        height: 93vh;
+        /* background-color: red;     */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #pg1-center #pg1-left {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: blue; */
+    }
+    
+    #pg1-left h1 {
+        font-size: 5vw;
+        width: 70%;
+        line-height: 5vw;
+        color: #FFFFFF;
+        /* background-color: #fff; */
+    
+    }
+    
+    #pg1-left p {
+        font-size: 1.5vw;
+        width: 70%;
+
+        /* width: 30vw; */
+        /* line-height: 3.5vw; */
+        color: #FFFFFF;
+        margin-top: 1vw;
+    
+    }
+    
+    #pg1-left #top-btn {
+        font-size: 1vw;
+        width: 70%;
+        height: 5vh;
+        /* border: 1px solid blanchedalmond; */
+        line-height: 3.5vw;
+        color: #FFFFFF;
+        margin-top: 1vw;
+    
+    }
+    
+    #pg1-left #btn {
+        font-size: 1vw;
+        width:150px;
+        height: 40px;
+        background-color: #16023f;
+        border-radius: 5vw;
+        line-height: 3.5vw;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    #pg1-center #pg1-right {
+        width: 100%;
+        height: 90%;
+        /* background-color: rgb(13, 119, 52); */
+        background-image: url(img/kindpng_1401714.png);
+        background-size: cover;
+    
+    }
+    
+    
+   
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+
+#page2 #pg2-top {
+    width: 100%;
+    height: 60%;
+    /* background: #932222; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
+}
+
+
+
+#pg2-top #pg2-top-lft {
+    width: 40%;
+    height: 80%;
+    /* border: #f2ebff solid 1px; */
+    /* background-color: aqua; */
+}
+
+#pg2-top-lft h1 {
+    font-size: 3vw;
+    width: 35vw;
+}
+
+
+
+#pg2-top #pg2-top-rgt {
+    width: 60%;
+    height: 80%;
+    /* background-color: #bfbfbf; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#pg2-top-rgt #pg2-top-top {
+    width: 100%;
+    height: 30%;
+    /* background-color: #630909; */
+}
+
+#pg2-top-top p {
+    color: #16023f;
+    font-size: 2vw;
+    width: 80%;
+    padding: 2vw;
+    line-height: 2.2vw;
+}
+
+#pg2-top-rgt #pg2-top-btm {
+    width: 100%;
+    height: 50%;
+    /* background-color: #fa1111; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#pg2-top-btm #pg2-top-btm-lft {
+    width: 100%;
+    height: 50%;
+    /* background-color: #10df5f; */
+}
+
+#pg2-top-btm #pg2-top-btm-rgt {
+    width: 100%;
+    height: 50%;
+    /* background-color: #10cadf; */
+}
+
+
+#page2 #pg2-btm {
+    width: 100%;
+    height: 40%;
+    /* background: #9b0b0b; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ri-check-line{
+    font-size: 1vw;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background-color: #ee6a5f;
+    padding: 5px;
+    width: 2vw;
+    height: 2vw;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 1vw;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: #f32020; */
+}
+
+
+
+
+
+
+
+#pg2-btm #pg2-btm-vid {
+    width: 80vw;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url(https://www.theparentz.com/tpz-media/2023/03/Should-You-Play-with-Your-Kids-All-The-Time.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#page3{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3ab61;
+}
+
+#page3 #pg3-cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px ;
+    align-items: center;
+    /* border:1px solid #fff; */
+}
+
+
+#pg3-cards .pg3-card{
+    width: 530px;
+    height: 350px;
+    border-radius: 1vw;
+    /* border:1px solid #fff; */
+    background-color: #fff;
+    padding: 1VW;
+
+}
+
+.pg3-card .pg3-card-img{
+    width: 100%;
+    height: 70%;
+    /* border-radius: 1vw; */
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg3-card-img img{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1vw;
+
+}
+
+
+.pg3-card-title{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    object-position: center;
+    color: #16023f;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+
+}
+
+.pg3-card p{
+font-size: 2.5vw;
+}
+
+.pg3-card .ri-play-circle-fill{
+    font-size: 1vw;
+    color: #f3ab61;
+    }
+    
+#page4{
+    width: 100%;
+    height: 80vh;
+    background-color:#ffffff ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4-video{
+    width: 80vw;
+    height: 50%;
+    /* background-color: #44b3e0; */
+}
+
+#page4-video video{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#page4 h1{
+    padding: 1vw;
+    font-size: 3vw;
+}
+
+
+
+
+.pg4-card{
+    width: 200px;
+    height: 200px;
+    background-color:#ff8500;
+    border-radius: 1vw;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+    #page1 {
+        width: 100%;
+        height: 40vh;
+        background-color: #4cb0b2;
+    }
+    
+    
+    
+    #page1 nav {
+        width: 100%;
+        height: 7vh;
+        /* background-color: red; */
+        display: flex;
+        color: aliceblue;
+    }
+    
+    nav #nav-left {
+        width: 20%;
+        height: 100%;
+        /* background-color: aliceblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #nav-left h1 {
+        font-size: 4vw;
+    
+    }
+    
+    nav #nav-right {
+        width: 80%;
+        height: 100%;
+        /* background-color: rgb(19, 136, 238); */
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #nav-right a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 3vw;
+        font-weight: 500;
+        padding-right: 2vw;
+    
+    
+    }
+    
+    
+    #page1 #pg1-center {
+        width: 100%;
+        height: 93vh;
+        /* background-color: red;     */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #pg1-center #pg1-left {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        /* background-color: blue; */
+    }
+    
+    #pg1-left h1 {
+        font-size: 6vw;
+        width: 80%;
+        line-height: 6vw;
+        color: #FFFFFF;
+        /* background-color: #fff; */
+    
+    }
+    
+    #pg1-left p {
+        font-size: 2.5vw;
+        width: 80%;
+
+        /* width: 30vw; */
+        /* line-height: 3.5vw; */
+        color: #FFFFFF;
+        margin-top: 1vw;
+    
+    }
+    
+    #pg1-left #top-btn {
+        font-size: 4vw;
+        width: 80%;
+        height: 5vh;
+        /* border: 1px solid blanchedalmond; */
+        line-height: 3.5vw;
+        color: #FFFFFF;
+        margin-top: 1vw;
+    
+    }
+    
+    #pg1-left #btn {
+        font-size: 2vw;
+        width:130px;
+        height: 30px;
+        background-color: #16023f;
+        border-radius: 5vw;
+        line-height: 3.5vw;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    #pg1-center #pg1-right {
+        width: 100%;
+        height: 80%;
+        /* background-color: rgb(13, 119, 52); */
+        background-image: url(img/kindpng_1401714.png);
+        background-size: cover;
+        display: none;
+    
+    }
+    
+    
+   
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+
+#page2 #pg2-top {
+    width: 100%;
+    height: 30%;
+    /* background: #932222; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
+}
+
+
+
+#pg2-top #pg2-top-lft {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    /* border: #f2ebff solid 1px; */
+    /* background-color: aqua;/ */
+}
+
+#pg2-top-lft h1 {
+    font-size: 3vw;
+    width: 100vw;
+}
+
+
+
+#pg2-top #pg2-top-rgt {
+    width: 100%;
+    height: 80%;
+    /* background-color: #bfbfbf; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#pg2-top-rgt #pg2-top-top {
+    width: 100%;
+    height: 30%;
+    /* background-color: #630909; */
+}
+
+#pg2-top-top p {
+    color: #16023f;
+    font-size: 2.5vw;
+    width: 80%;
+    padding: 2vw;
+    line-height: 2.7vw;
+}
+
+#pg2-top-rgt #pg2-top-btm {
+    width: 100%;
+    height: 70%;
+    /* background-color: #fa1111; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#pg2-top-btm #pg2-top-btm-lft {
+    width: 100%;
+    height: 50%;
+    /* background-color: #10df5f; */
+}
+
+#pg2-top-btm #pg2-top-btm-rgt {
+    width: 100%;
+    height: 50%;
+    /* background-color: #10cadf; */
+}
+
+
+#page2 #pg2-btm {
+    width: 100%;
+    height: 50%;
+    /* background: #9b0b0b; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ri-check-line{
+    font-size: 1vw;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background-color: #ee6a5f;
+    padding: 5px;
+    width: 2vw;
+    height: 2vw;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 1vw;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: #f32020; */
+}
+
+
+
+
+
+
+
+#pg2-btm #pg2-btm-vid {
+    width: 80vw;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url(https://www.theparentz.com/tpz-media/2023/03/Should-You-Play-with-Your-Kids-All-The-Time.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+    #page3{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f3ab61;
+    }
+
+    #page3 #pg3-cards{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* border:1px solid #fff; */
+    }
+    
+    
+    #pg3-cards .pg3-card{
+        width: 422px;
+        height: 320px;
+        border-radius: 1vw;
+        /* border:1px solid #fff; */
+        background-color: #fff;
+        padding: 1VW;
+    
+    }
+    
+    .pg3-card .pg3-card-img{
+        width: 100%;
+        height: 70%;
+        /* border-radius: 1vw; */
+        /* background-color: #fff; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pg3-card-img img{
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 1vw;
+    
+    }
+    
+    
+    .pg3-card-title{
+        width: 100%;
+        height: 20%;
+        object-fit: cover;
+        object-position: center;
+        color: #16023f;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+    
+    }
+    .pg3-card-title h2{
+      font-size: 3w;
+    
+    }
+
+    .pg3-card p{
+    font-size: 3vw;
+    }
+    
+    .pg3-card .ri-play-circle-fill{
+        font-size: 3.5vw;
+        color: #f3ab61;
+        }
+
+        #page4{
+            height: 40%;
+        }
+
+        #page4-video{
+            width: 70vw;
+            height: 80%;
+            /* background-color: #44b3e0; */
+        }
+        
+}

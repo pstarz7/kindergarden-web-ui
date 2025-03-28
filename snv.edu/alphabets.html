@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Divs</title>
+    <link rel="stylesheet" href="alphabets.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div id="main">
+
+<div id="page1">
+<nav>
+    <div id="nav-left">
+       <a href="index.html"><h1>snv.edu</h1></a> 
+    </div>
+    <div id="nav-right"><a href="#">course</a><a href="#">about</a><a href="#">contact</a></div>
+</nav>
+
+
+
+
+
+<div id="pg1-content-btns">
+    <div id="pg1-start-btn"><h3>start</h3></div>
+</div>
+
+<div id="pg1-content">
+    <div id="A-alphabet" class="Alphabet"><h2>A</h2></div>
+    <div id="B-alphabet" class="Alphabet"><h2>B</h2></div>
+    <div id="C-alphabet" class="Alphabet"><h2>C</h2></div>
+    <div id="D-alphabet" class="Alphabet"><h2>D</h2></div>
+    <div id="E-alphabet" class="Alphabet"><h2>E</h2></div>
+    <div id="F-alphabet" class="Alphabet"><h2>F</h2></div>
+    <div id="G-alphabet" class="Alphabet"><h2>G</h2></div>
+    <div id="H-alphabet" class="Alphabet"><h2>H</h2></div>
+    <div id="I-alphabet" class="Alphabet"><h2>I</h2></div>
+    <div id="J-alphabet" class="Alphabet"><h2>J</h2></div>
+    <div id="K-alphabet" class="Alphabet"><h2>K</h2></div>
+    <div id="L-alphabet" class="Alphabet"><h2>L</h2></div>
+    <div id="M-alphabet" class="Alphabet"><h2>M</h2></div>
+    <div id="N-alphabet" class="Alphabet"><h2>N</h2></div>
+    <div id="O-alphabet" class="Alphabet"><h2>O</h2></div>
+    <div id="P-alphabet" class="Alphabet"><h2>P</h2></div>
+    <div id="Q-alphabet" class="Alphabet"><h2>Q</h2></div>
+    <div id="R-alphabet" class="Alphabet"><h2>R</h2></div>
+    <div id="S-alphabet" class="Alphabet"><h2>S</h2></div>
+    <div id="T-alphabet" class="Alphabet"><h2>T</h2></div>
+    <div id="U-alphabet" class="Alphabet"><h2>U</h2></div>
+    <div id="V-alphabet" class="Alphabet"><h2>V</h2></div>
+    <div id="W-alphabet" class="Alphabet"><h2>W</h2></div>
+    <div id="X-alphabet" class="Alphabet"><h2>X</h2></div>
+    <div id="Y-alphabet" class="Alphabet"><h2>Y</h2></div>
+    <div id="Z-alphabet" class="Alphabet"><h2>Z</h2></div>
+    
+</div>
+</div>
+<script>
+document.getElementById("pg1-start-btn").addEventListener("click", function() {
+    let alphabetDivs = document.querySelectorAll(".Alphabet");
+    let delay = 0;
+
+    alphabetDivs.forEach((div, index) => {
+        setTimeout(() => {
+            // Add the glow effect and scale up
+            div.classList.add("glow");
+            div.querySelector("h2").style.transform = "scale(3)";
+
+            // Play the corresponding audio
+            let letter = div.querySelector("h2").textContent.trim();
+            let audio = new Audio(`audio/${letter.toLowerCase()}.mp3`);
+            audio.play();
+
+            // Remove the glow and scale down after 2 seconds
+            setTimeout(() => {
+                div.classList.remove("glow");
+                div.querySelector("h2").style.transform = "scale(2.5)";
+            }, 2000);
+        }, delay);
+
+        delay += 2500; // Increase the delay by 2.5 seconds for each alphabet
+    });
+});
+</script>
+
+
+<!-- <script src="alpha.js"></script> -->
+</div>
+</body>
+</html>
